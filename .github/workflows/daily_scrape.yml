@@ -1,4 +1,14 @@
+name: Daily Job Scraper
+
 on:
   # schedule:
   #   - cron: '0 5 * * *'
-  workflow_dispatch:  # manual trigger only for now
+  workflow_dispatch:
+
+jobs:
+  scrape:
+    if: false
+    runs-on: ubuntu-latest
+    steps:
+      - name: Placeholder — scraper not yet implemented
+        run: echo "Coming soon"
