@@ -10,10 +10,11 @@ from datetime import datetime
 import yaml
 from dotenv import load_dotenv
 import google.generativeai as genai
-import requests
 
 from ai.provider import analyze_job_fit, mock_analyze_job_fit
+from notifications.discord import send_discord_alert, send_discord_summary
 from notifications.email import send_email_digest
+from notifications.telegram import send_telegram_alert, send_telegram_summary
 from scraper.scraper import (
     load_companies,
     validate_urls,
@@ -33,14 +34,13 @@ TARGET_TITLES = []
 LOCATION_KEYWORDS = []
 NOTIFICATION_CHANNELS = ['discord']
 GEMINI_API_KEY = None
-DISCORD_WEBHOOK_URL = None
 model = None
 
 
 def _load_config():
     """Load config.yaml and .env secrets. Called when running full pipeline."""
     global config, MIN_FIT_SCORE, PRIORITY_MIN_FIT_SCORE, TARGET_TITLES, LOCATION_KEYWORDS
-    global NOTIFICATION_CHANNELS, GEMINI_API_KEY, DISCORD_WEBHOOK_URL, model
+    global NOTIFICATION_CHANNELS, GEMINI_API_KEY, model
 
     with open('config.yaml', 'r', encoding='utf-8') as f:
         config = yaml.safe_load(f)
@@ -52,7 +52,6 @@ def _load_config():
     LOCATION_KEYWORDS = config.get('location_keywords', ['Remote', 'EMEA', 'Europe', 'Global', 'Worldwide'])
 
     GEMINI_API_KEY = os.environ.get('GEMINI_API_KEY')
-    DISCORD_WEBHOOK_URL = os.environ.get('DISCORD_WEBHOOK_URL')
 
     genai.configure(api_key=GEMINI_API_KEY)
     ai_model = config.get('ai_model', 'models/gemini-flash-latest')
@@ -78,50 +77,6 @@ def load_cv():
     """Load CV text from cv.txt"""
     with open('cv.txt', 'r', encoding='utf-8') as f:
         return f.read()
-
-
-def send_discord_alert(job, fit_analysis, is_priority):
-    """Send simplified alert to Discord"""
-    if 'discord' not in NOTIFICATION_CHANNELS:
-        return
-    if not DISCORD_WEBHOOK_URL:
-        print(f"    ⚠️ Discord webhook not configured, skipping alert")
-        return
-
-    fit_score = fit_analysis['fit_score']
-    if fit_score >= 8:
-        color = 3066993  # Green
-        emoji = "🔥"
-    elif fit_score >= 7:
-        color = 15844367  # Gold
-        emoji = "✨"
-    else:
-        color = 10181046  # Purple
-        emoji = "💡"
-
-    priority_tag = " [PRIORITY]" if is_priority else ""
-    reasons_for = "\n".join([f"• {r}" for r in fit_analysis['reasons_for'][:2]])
-    reasons_against = fit_analysis['reasons_against'][0] if fit_analysis['reasons_against'] else "None"
-
-    message = {
-        "content": f"{emoji} **{fit_score}/10{priority_tag}** - {fit_analysis['recommendation']}",
-        "embeds": [{
-            "title": job['title'],
-            "url": job['url'],
-            "description": f"**{job['company']}**",
-            "color": color,
-            "fields": [
-                {"name": "✅ Good Fit", "value": reasons_for[:500], "inline": False},
-                {"name": "⚠️ Gap", "value": reasons_against[:200], "inline": False}
-            ]
-        }]
-    }
-
-    try:
-        requests.post(DISCORD_WEBHOOK_URL, json=message, timeout=10)
-        print(f"    ✅ Discord alert sent for {job['company']}")
-    except Exception as e:
-        print(f"    ❌ Failed to send Discord alert: {str(e)}")
 
 
 def run_pipeline(companies_to_run, cv_text, dry_run=False):
@@ -196,7 +151,10 @@ def run_pipeline(companies_to_run, cv_text, dry_run=False):
                     if max_alerts and alerts_sent >= max_alerts:
                         print(f"    ⏭️ Reached max alerts ({max_alerts}). Stopping.")
                         break
-                    send_discord_alert(job, fit_analysis, is_priority)
+                    if 'discord' in NOTIFICATION_CHANNELS:
+                        send_discord_alert(job, fit_analysis, is_priority, config)
+                    if 'telegram' in NOTIFICATION_CHANNELS:
+                        send_telegram_alert(job, fit_analysis, is_priority, config)
                     alerts_sent += 1
                 else:
                     print(f"    ⏭️  Skipped (Score {fit_score} < {threshold})")
@@ -219,24 +177,15 @@ def run_pipeline(companies_to_run, cv_text, dry_run=False):
         f"🔔 Alerts sent: {alerts_sent}"
     )
 
-    # Email digest (one per day, all jobs)
+    # Summaries (after pipeline completes)
+    if 'discord' in NOTIFICATION_CHANNELS:
+        send_discord_summary(matched_jobs, len(companies_to_run), config)
+    if 'telegram' in NOTIFICATION_CHANNELS:
+        send_telegram_summary(matched_jobs, len(companies_to_run), config)
     if 'email' in NOTIFICATION_CHANNELS:
         send_email_digest(matched_jobs, len(companies_to_run), config)
 
-    # Discord: per-job alerts already sent; send "no matches" summary only if configured
-    if alerts_sent == 0 and 'discord' in NOTIFICATION_CHANNELS and DISCORD_WEBHOOK_URL:
-        send_if_no_matches = config.get('discord', {}).get('send_if_no_matches', False)
-        if not send_if_no_matches:
-            print("ℹ️ No matches — skipping Discord summary")
-        else:
-            try:
-                requests.post(DISCORD_WEBHOOK_URL, json={
-                    "content": summary_msg + "\n☕ *No matches today.*"
-                })
-            except Exception as e:
-                print(f"Could not send summary: {e}")
-    else:
-        print(summary_msg)
+    print(summary_msg)
 
     save_json('seen_jobs.json', seen_jobs)
     print("\n" + "=" * 60)

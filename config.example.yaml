@@ -53,7 +53,8 @@ email:
 discord:
   send_if_no_matches: false   # requires DISCORD_WEBHOOK_URL in .env
 
-telegram: {}             # requires TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID in .env
+telegram:
+  send_if_no_matches: false   # requires TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID in .env
 
 # --- Scheduling ---
 # How many days between scrapes for non-priority companies.
