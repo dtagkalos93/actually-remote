@@ -13,6 +13,7 @@ import google.generativeai as genai
 import requests
 
 from ai.provider import analyze_job_fit, mock_analyze_job_fit
+from notifications.email import send_email_digest
 from scraper.scraper import (
     load_companies,
     validate_urls,
@@ -25,6 +26,7 @@ from scraper.scheduler import get_todays_companies
 load_dotenv()
 
 # Config and secrets loaded in main() when needed (not for --dry-run)
+config = {}
 MIN_FIT_SCORE = 7
 PRIORITY_MIN_FIT_SCORE = 6
 TARGET_TITLES = []
@@ -37,23 +39,23 @@ model = None
 
 def _load_config():
     """Load config.yaml and .env secrets. Called when running full pipeline."""
-    global MIN_FIT_SCORE, PRIORITY_MIN_FIT_SCORE, TARGET_TITLES, LOCATION_KEYWORDS
+    global config, MIN_FIT_SCORE, PRIORITY_MIN_FIT_SCORE, TARGET_TITLES, LOCATION_KEYWORDS
     global NOTIFICATION_CHANNELS, GEMINI_API_KEY, DISCORD_WEBHOOK_URL, model
 
     with open('config.yaml', 'r', encoding='utf-8') as f:
-        _config = yaml.safe_load(f)
+        config = yaml.safe_load(f)
 
-    NOTIFICATION_CHANNELS = _config.get('notification_channels', ['discord'])
-    MIN_FIT_SCORE = _config.get('min_fit_score', 7)
-    PRIORITY_MIN_FIT_SCORE = _config.get('priority_min_fit_score', 6)
-    TARGET_TITLES = _config.get('target_titles', ['Backend Engineer', 'Frontend Engineer'])
-    LOCATION_KEYWORDS = _config.get('location_keywords', ['Remote', 'EMEA', 'Europe', 'Global', 'Worldwide'])
+    NOTIFICATION_CHANNELS = config.get('notification_channels', ['discord'])
+    MIN_FIT_SCORE = config.get('min_fit_score', 7)
+    PRIORITY_MIN_FIT_SCORE = config.get('priority_min_fit_score', 6)
+    TARGET_TITLES = config.get('target_titles', ['Backend Engineer', 'Frontend Engineer'])
+    LOCATION_KEYWORDS = config.get('location_keywords', ['Remote', 'EMEA', 'Europe', 'Global', 'Worldwide'])
 
     GEMINI_API_KEY = os.environ.get('GEMINI_API_KEY')
     DISCORD_WEBHOOK_URL = os.environ.get('DISCORD_WEBHOOK_URL')
 
     genai.configure(api_key=GEMINI_API_KEY)
-    ai_model = _config.get('ai_model', 'models/gemini-flash-latest')
+    ai_model = config.get('ai_model', 'models/gemini-flash-latest')
     model = genai.GenerativeModel(f'models/{ai_model}')
 
 
@@ -127,6 +129,7 @@ def run_pipeline(companies_to_run, cv_text, dry_run=False):
     seen_jobs = load_json('seen_jobs.json')
     new_jobs_found = 0
     alerts_sent = 0
+    matched_jobs = []
     max_alerts = 5 if dry_run else None
 
     for company in companies_to_run:
@@ -182,6 +185,14 @@ def run_pipeline(companies_to_run, cv_text, dry_run=False):
                 }
 
                 if should_alert:
+                    matched_jobs.append({
+                        'title': job['title'],
+                        'url': job['url'],
+                        'company': name,
+                        'fit_score': fit_score,
+                        'is_priority': is_priority,
+                        'fit_analysis': fit_analysis,
+                    })
                     if max_alerts and alerts_sent >= max_alerts:
                         print(f"    ⏭️ Reached max alerts ({max_alerts}). Stopping.")
                         break
@@ -208,13 +219,22 @@ def run_pipeline(companies_to_run, cv_text, dry_run=False):
         f"🔔 Alerts sent: {alerts_sent}"
     )
 
+    # Email digest (one per day, all jobs)
+    if 'email' in NOTIFICATION_CHANNELS:
+        send_email_digest(matched_jobs, len(companies_to_run), config)
+
+    # Discord: per-job alerts already sent; send "no matches" summary only if configured
     if alerts_sent == 0 and 'discord' in NOTIFICATION_CHANNELS and DISCORD_WEBHOOK_URL:
-        try:
-            requests.post(DISCORD_WEBHOOK_URL, json={
-                "content": summary_msg + "\n☕ *No matches today.*"
-            })
-        except Exception as e:
-            print(f"Could not send summary: {e}")
+        send_if_no_matches = config.get('discord', {}).get('send_if_no_matches', False)
+        if not send_if_no_matches:
+            print("ℹ️ No matches — skipping Discord summary")
+        else:
+            try:
+                requests.post(DISCORD_WEBHOOK_URL, json={
+                    "content": summary_msg + "\n☕ *No matches today.*"
+                })
+            except Exception as e:
+                print(f"Could not send summary: {e}")
     else:
         print(summary_msg)
 

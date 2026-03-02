@@ -43,15 +43,15 @@ location_keywords:
 notification_channels:
   - discord
   # - email
-  - discord
   # - telegram
 
 email:
-  from: "your@gmail.com"
-  to: "your@gmail.com"
-  provider: gmail        # options: gmail, resend
+  provider: resend       # options: gmail, resend
+  send_if_no_matches: false  # set true if you want confirmation
+                             # it ran even with no matches
 
-discord: {}              # requires DISCORD_WEBHOOK_URL in .env
+discord:
+  send_if_no_matches: false   # requires DISCORD_WEBHOOK_URL in .env
 
 telegram: {}             # requires TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID in .env
 
