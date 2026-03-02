@@ -38,24 +38,22 @@ location_keywords:
   - "CH"
 
 # --- Notifications ---
-# Email is enabled by default.
-# Uncomment Discord or Telegram sections to enable them alongside email.
+# List the channels you want to enable.
+# Comment out any channel you don't want.
+notification_channels:
+  - discord
+  # - email
+  - discord
+  # - telegram
 
 email:
-  enabled: true
-  from: "your@gmail.com"      # the address sending the digest
-  to: "your@gmail.com"        # the address receiving the digest
-  provider: gmail              # options: gmail, resend
+  from: "your@gmail.com"
+  to: "your@gmail.com"
+  provider: gmail        # options: gmail, resend
 
-# Discord webhook — uncomment to enable
-# discord:
-#   enabled: true
-#   # Add DISCORD_WEBHOOK_URL to your GitHub Secrets and .env
+discord: {}              # requires DISCORD_WEBHOOK_URL in .env
 
-# Telegram bot — uncomment to enable
-# telegram:
-#   enabled: true
-#   # Add TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID to your GitHub Secrets and .env
+telegram: {}             # requires TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID in .env
 
 # --- Scheduling ---
 # How many days between scrapes for non-priority companies.

@@ -29,6 +29,7 @@ MIN_FIT_SCORE = 7
 PRIORITY_MIN_FIT_SCORE = 6
 TARGET_TITLES = []
 LOCATION_KEYWORDS = []
+NOTIFICATION_CHANNELS = ['discord']
 GEMINI_API_KEY = None
 DISCORD_WEBHOOK_URL = None
 model = None
@@ -37,11 +38,12 @@ model = None
 def _load_config():
     """Load config.yaml and .env secrets. Called when running full pipeline."""
     global MIN_FIT_SCORE, PRIORITY_MIN_FIT_SCORE, TARGET_TITLES, LOCATION_KEYWORDS
-    global GEMINI_API_KEY, DISCORD_WEBHOOK_URL, model
+    global NOTIFICATION_CHANNELS, GEMINI_API_KEY, DISCORD_WEBHOOK_URL, model
 
     with open('config.yaml', 'r', encoding='utf-8') as f:
         _config = yaml.safe_load(f)
 
+    NOTIFICATION_CHANNELS = _config.get('notification_channels', ['discord'])
     MIN_FIT_SCORE = _config.get('min_fit_score', 7)
     PRIORITY_MIN_FIT_SCORE = _config.get('priority_min_fit_score', 6)
     TARGET_TITLES = _config.get('target_titles', ['Backend Engineer', 'Frontend Engineer'])
@@ -78,6 +80,8 @@ def load_cv():
 
 def send_discord_alert(job, fit_analysis, is_priority):
     """Send simplified alert to Discord"""
+    if 'discord' not in NOTIFICATION_CHANNELS:
+        return
     if not DISCORD_WEBHOOK_URL:
         print(f"    ⚠️ Discord webhook not configured, skipping alert")
         return
@@ -204,7 +208,7 @@ def run_pipeline(companies_to_run, cv_text, dry_run=False):
         f"🔔 Alerts sent: {alerts_sent}"
     )
 
-    if alerts_sent == 0 and DISCORD_WEBHOOK_URL:
+    if alerts_sent == 0 and 'discord' in NOTIFICATION_CHANNELS and DISCORD_WEBHOOK_URL:
         try:
             requests.post(DISCORD_WEBHOOK_URL, json={
                 "content": summary_msg + "\n☕ *No matches today.*"
