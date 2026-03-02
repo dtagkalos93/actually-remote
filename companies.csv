@@ -1,8 +1,10 @@
 name,url,priority,category,hq_country,remote_policy
+Storyblok,https://www.storyblok.com/jobs,false,saas,AT,global
 Kinsta,https://kinsta.com/careers,false,saas,UK,global
 Palta,https://palta.com/job,false,saas,UK,europe
 ElevenLabs,https://elevenlabs.io/careers,false,saas,UK,global
 Ruby Labs,https://jobs.ashbyhq.com/ruby-labs,false,saas,UK,global
+Featurebase,https://www.featurebase.app/careers,false,saas,EE,global
 GitBook,https://www.gitbook.com/careers,false,saas,FR,europe
 Poolside,https://poolside.ai/careers,false,saas,FR,global
 Photoroom,https://jobs.ashbyhq.com/photoroom,false,saas,FR,global
@@ -16,10 +18,15 @@ Kyan Helth,https://jobs.ashbyhq.com/kyanhealth,false,saas,CH,global
 Relai,https://relai.app/career,true,fintech,CH,europe
 Ledgy,https://ledgy.com/careers,false,saas,CH,europe
 Lakera,https://www.lakera.ai/careers,false,saas,CH,global
+Lightly,https://join.com/companies/lightly,false,saas,CH,CH
 rready.ai,https://join.com/companies/rready,false,saas,CH,CH
+SwissBorg,https://jobs.lever.co/swissborg,false,fintech,CH,europe
 Supabase,https://supabase.com/careers,true,devtool,fully-remote,global
 Growe,https://growe.com/career,false,game,PL,global
+Rerun,https://rerun.io/careers,false,devtool,SE,global
+Polar,https://jobs.ashbyhq.com/polar,false,saas,SE,global
 Cohere,https://jobs.ashbyhq.com/cohere,false,saas,CA,global
+Yuno,https://y.uno/careers,false,fintech,CO,global
 Hightouch,https://hightouch.com/careers,true,saas,US,global
 Railway,https://railway.com/careers,true,devtool,US,global
 SigNoz,https://jobs.ashbyhq.com/SigNoz,false,devtool,US,EU
@@ -51,3 +58,18 @@ Circle,https://circle.so/careers,false,saas,US,global
 DataHub,https://datahub.com/company/careers,false,saas,US,global
 Sardine,https://www.sardine.ai/careers,false,saas,US,global
 ClickHouse,https://job-boards.greenhouse.io/clickhouse,false,saas,US,global
+Runpod,https://job-boards.greenhouse.io/runpod,false,infra,US,global
+Appwrite,https://www.appwrite.careers,false,saas,US,global
+Nango,https://nango.dev/careers,false,saas,US,global
+PurpleRain,https://purplerain.freshteam.com/jobs,false,saas,US,global
+IP Fabric,https://ipfabric.io/jobs-listing,false,saas,US,global
+Customer.io,https://customer.io/careers,false,saas,US,global
+Clickup,https://clickup.com/careers,false,saas,US,global
+Bolt.new,https://bolt.new/careers,false,saas,US,global
+Infisical,https://infisical.com/careers,false,saas,US,global
+Arize AI,https://arize.com/careers,false,saas,US,global
+Upwind,https://www.upwind.io/careers,false,saas,US,global
+OP Labs,https://jobs.ashbyhq.com/oplabs,false,saas,US,global
+AppViewX,https://www.appviewx.com/company/careers,false,saas,US,global
+AssemblyAI,https://www.assemblyai.com/careers,false,saas,US,global
+HappyRobot,https://jobs.ashbyhq.com/happyrobot.ai,false,saas,US,global
