@@ -36,10 +36,10 @@ A company does **not** belong if:
 
 Add your entry to `companies.csv` following this format:
 
-|     name     |             url             | priority | category | hq_country | remote_policy |
-| ------------ | --------------------------- | -------- | -------- | ---------- | ------------- |
-| Company Name | https://company.com/careers |   false  |   saas   |     NL     |     global    |
-
+```csv
+name,url,priority,category,hq_country,remote_policy
+Company Name,https://company.com/careers,false,saas,NL,global
+```
 
 **Required fields:**
 - `name` — company name
