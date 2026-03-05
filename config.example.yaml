@@ -9,7 +9,7 @@
 # Options: gemini, claude, openai, ollama
 # Default: gemini (best free tier — 1,500 requests/day, no expiry)
 ai_provider: gemini
-ai_model: gemini-2.0-flash    # model to use for CV matching and discovery
+ai_model: gemini-2.5-flash    # model to use for CV matching and discovery
 
 # --- Job Matching Thresholds ---
 # Fit score is 0-10. Jobs below the threshold are ignored.
@@ -21,14 +21,9 @@ priority_min_fit_score: 6
 # A job must contain at least one of these titles to be considered.
 # Case-insensitive. Partial matches work (e.g. "Engineer" matches "Solutions Engineer").
 target_titles:
-  - "Software Engineer"
-  - "Backend Engineer"
-  - "Frontend Engineer"
-  - "Full Stack Engineer"
-  - "DevOps Engineer"
-  - "Data Engineer"
-  - "Product Manager"
-  - "Designer"
+  - "Engineer"
+  - "Developer"
+  - "Manager"
 
 # --- Location Keywords ---
 # A job must match at least one of these to pass the location filter.
@@ -43,10 +38,9 @@ location_keywords:
 
 # --- Notifications ---
 # List the channels you want to enable.
-# Comment out any channel you don't want.
 notification_channels:
-  # - discord
   - email
+  # - discord
   # - telegram
 
 email:

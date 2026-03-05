@@ -29,6 +29,7 @@ def _get_banner_path():
 
 
 def send_email_digest(matched_jobs, companies_checked, config):
+    """Send daily email digest with matched jobs, or no-matches summary if configured."""
     resend.api_key = os.getenv('RESEND_API_KEY')
     email_from = os.getenv('EMAIL_FROM', 'onboarding@resend.dev')
     email_to = os.getenv('EMAIL_TO')

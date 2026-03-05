@@ -1,3 +1,8 @@
+"""
+Telegram notifications for job alerts and summaries.
+Note: Telegram's Markdown is strict — underscores and asterisks in job titles
+may need escaping. Consider switching to parse_mode='HTML' if formatting issues occur.
+"""
 import os
 
 import requests

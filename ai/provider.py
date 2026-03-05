@@ -2,6 +2,9 @@
 Pluggable AI provider abstraction.
 Supports: Google Gemini (default), Anthropic Claude, OpenAI, Ollama.
 Handles location pre-filtering and CV match scoring.
+
+Note: Only Gemini is implemented. Claude, OpenAI, and Ollama will be
+refactored into this module as pluggable backends in a future release.
 """
 import json
 
@@ -61,5 +64,5 @@ Rules:
                 response_text = response_text[4:]
         return json.loads(response_text)
     except Exception as e:
-        print(f"    ⚠️ AI analysis failed: {str(e)}")
+        print(f"    ❌ AI analysis failed: {str(e)}")
         return None

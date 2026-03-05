@@ -161,7 +161,6 @@ def filter_new_companies(companies, known_urls, known_names):
         if is_job_listing_url(url):
             continue
 
-        # Validate URL is actually accessible
         if not is_url_accessible(url):
             print(f"    ⚠️ Skipping inaccessible URL: {url}")
             continue
@@ -201,7 +200,7 @@ def send_discord_discovery(new_companies, config):
         requests.post(webhook_url, json={"content": message}, timeout=10)
         return True
     except Exception as e:
-        print(f"    ⚠️ Discord notification failed: {e}")
+        print(f"    ❌ Discord notification failed: {e}")
         return False
 
 
@@ -255,7 +254,7 @@ def send_email_discovery(new_companies, config):
         })
         return True
     except Exception as e:
-        print(f"    ⚠️ Email notification failed: {e}")
+        print(f"    ❌ Email notification failed: {e}")
         return False
 
 
@@ -291,7 +290,7 @@ def send_telegram_discovery(new_companies, config):
         }, timeout=10)
         return True
     except Exception as e:
-        print(f"    ⚠️ Telegram notification failed: {e}")
+        print(f"    ❌ Telegram notification failed: {e}")
         return False
 
 
@@ -306,9 +305,7 @@ def main():
 
     print(f"Loaded {len(companies)} known companies")
 
-    client = genai.Client()
-
-    GEMINI_API_KEY = os.environ.get('GEMINI_API_KEY')
+    client = genai.Client(api_key=os.environ.get('GEMINI_API_KEY'))
     ai_model = config.get('ai_model', 'gemini-2.5-flash')
 
     queries = build_queries(config)
@@ -324,18 +321,16 @@ def main():
         except (TypeError, AttributeError):
             if use_google_search:
                 use_google_search = False
-                print("    (Google Search grounding not available, using standard generation)")
+                print("    ⚠️ Google Search grounding not available, using standard generation")
             raw_companies = run_discovery_query(client, ai_model, query, use_google_search)
         new_companies = filter_new_companies(raw_companies, known_urls, known_names)
         all_discoveries.extend(new_companies)
         print(f"  ✅ Found {len(new_companies)} new companies")
 
-        # Update known sets to avoid duplicates across queries
         for c in new_companies:
             known_urls.add(c['url'].rstrip('/').lower())
             known_names.add(c['name'].lower())
 
-    # Deduplicate by URL (same company might appear in multiple queries)
     seen = set()
     new_companies = []
     for c in all_discoveries:
@@ -347,14 +342,13 @@ def main():
     print(f"\n🎯 Total new discoveries: {len(new_companies)}")
 
     if not new_companies:
-        print("No new companies discovered.")
+        print("No new companies discovered")
         with open('discovery_results.txt', 'w', encoding='utf-8') as f:
             f.write(f"Discovery run: {datetime.now()}\n\n")
             f.write("No new companies found.\n")
         print("✅ Results saved to discovery_results.txt")
         return
 
-    # Always print full list to terminal
     print("\nNew companies:")
     for c in new_companies:
         platform = f" ({c['platform']})" if c.get('platform') else ""
@@ -368,7 +362,6 @@ def main():
     if send_telegram_discovery(new_companies, config):
         print("✅ Telegram notification sent")
 
-    # Save to file
     with open('discovery_results.txt', 'w', encoding='utf-8') as f:
         f.write(f"Discovery run: {datetime.now()}\n\n")
         for c in new_companies:

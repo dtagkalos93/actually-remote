@@ -165,11 +165,11 @@ def run_pipeline(companies_to_run, cv_text, dry_run=False):
                         send_telegram_alert(job, fit_analysis, is_priority, config)
                     alerts_sent += 1
                 else:
-                    print(f"    ⏭️  Skipped (Score {fit_score} < {threshold})")
+                    print(f"    ⏭️ Skipped (Score {fit_score} < {threshold})")
 
             except Exception as e:
                 error_msg = str(e).lower()
-                print(f"    ⚠️ AI Analysis failed for {job['title']}: {str(e)}")
+                print(f"    ❌ AI Analysis failed for {job['title']}: {str(e)}")
 
                 if "429" in error_msg or "quota" in error_msg or "limit" in error_msg:
                     print("    🛑 API Quota reached. Saving progress and stopping for today.")

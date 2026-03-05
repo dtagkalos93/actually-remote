@@ -1,6 +1,11 @@
+# Core
 requests==2.31.0
 beautifulsoup4==4.12.3
-google-genai
 python-dotenv==1.0.0
 PyYAML>=6.0
+
+# AI
+google-genai
+
+# Notifications
 resend>=2.0

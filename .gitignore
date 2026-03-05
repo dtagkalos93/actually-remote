@@ -8,7 +8,6 @@ SCOPE.md
 test_scraper.py
 test_email.py
 email_preview.html
-discovery_results.txt
 # === Python ===
 __pycache__/
 *.py[cod]
