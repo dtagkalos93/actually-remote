@@ -100,5 +100,26 @@
     "title": "Solutions EngineerNorth AmericaLearn more→",
     "fit_score": 2,
     "alerted": false
+  },
+  "https://job-boards.greenhouse.io/planetscale/jobs/4009926009": {
+    "first_seen": "2026-03-07T05:41:43.420247",
+    "company": "Planet Scale",
+    "title": "Enterprise Support EngineerRemote - NA, APAC, EMEA",
+    "fit_score": 8,
+    "alerted": true
+  },
+  "https://job-boards.greenhouse.io/planetscale/jobs/4146189009": {
+    "first_seen": "2026-03-07T05:42:02.291745",
+    "company": "Planet Scale",
+    "title": "Technical Account ManagerRemote - North America",
+    "fit_score": 8,
+    "alerted": true
+  },
+  "https://job-boards.greenhouse.io/planetscale/jobs/4052805009": {
+    "first_seen": "2026-03-07T05:42:21.445813",
+    "company": "Planet Scale",
+    "title": "Solutions EngineerRemote - EMEA, Remote - NA",
+    "fit_score": 8,
+    "alerted": true
   }
 }
