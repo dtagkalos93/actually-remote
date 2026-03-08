@@ -121,5 +121,82 @@
     "title": "Solutions EngineerRemote - EMEA, Remote - NA",
     "fit_score": 8,
     "alerted": true
+  },
+  "https://job-boards.greenhouse.io/runpod/jobs/5082425008": {
+    "first_seen": "2026-03-08T05:49:46.800197",
+    "company": "Runpod",
+    "title": "Forward Deployed Engineer (EMEA)Remote, EMEA",
+    "fit_score": 9,
+    "alerted": true
+  },
+  "https://www.sanity.io/careers/associate-support-engineer-europe": {
+    "first_seen": "2026-03-08T05:50:09.465339",
+    "company": "Sanity",
+    "title": "Associate Support Engineer, Europe",
+    "fit_score": 9,
+    "alerted": true
+  },
+  "https://www.sanity.io/careers/senior-manager-support-engineering-europe": {
+    "first_seen": "2026-03-08T05:50:35.292830",
+    "company": "Sanity",
+    "title": "Senior Manager, Support Engineering - Europe",
+    "fit_score": 3,
+    "alerted": false
+  },
+  "https://www.sanity.io/careers/senior-solution-architect-na": {
+    "first_seen": "2026-03-08T05:51:06.514106",
+    "company": "Sanity",
+    "title": "Senior Solutions Architect",
+    "fit_score": 9,
+    "alerted": true
+  },
+  "https://www.sanity.io/careers/senior-solutions-architect-europe": {
+    "first_seen": "2026-03-08T05:51:26.627685",
+    "company": "Sanity",
+    "title": "Senior Solutions Architect, Europe",
+    "fit_score": 9,
+    "alerted": true
+  },
+  "https://www.sanity.io/careers/senior-support-engineer-europe": {
+    "first_seen": "2026-03-08T05:51:43.912963",
+    "company": "Sanity",
+    "title": "Senior Support Engineer, Europe",
+    "fit_score": 9,
+    "alerted": true
+  },
+  "https://www.sanity.io/careers/senior-support-engineer-noram": {
+    "first_seen": "2026-03-08T05:52:05.723336",
+    "company": "Sanity",
+    "title": "Senior Support Engineer, NORAM",
+    "fit_score": 8,
+    "alerted": true
+  },
+  "https://www.sanity.io/careers/director-of-solutions-engineering-presales": {
+    "first_seen": "2026-03-08T05:52:27.170292",
+    "company": "Sanity",
+    "title": "Director of Solutions Engineering, PreSales",
+    "fit_score": 8,
+    "alerted": true
+  },
+  "https://www.sanity.io/careers/staff-solutions-engineer-presales": {
+    "first_seen": "2026-03-08T05:52:50.960820",
+    "company": "Sanity",
+    "title": "Staff Solutions Engineer, PreSales",
+    "fit_score": 9,
+    "alerted": true
+  },
+  "https://www.upwind.io/careers/co/tel-aviv/87.55F/technical-account-manager/all": {
+    "first_seen": "2026-03-08T05:53:11.528382",
+    "company": "Upwind",
+    "title": "Technical Account Manager Tel Aviv · Full-time",
+    "fit_score": 8,
+    "alerted": true
+  },
+  "https://www.upwind.io/careers/co/us-remote/3B.368/solutions-architect/all": {
+    "first_seen": "2026-03-08T05:53:34.304878",
+    "company": "Upwind",
+    "title": "Solutions Architect US (Remote)",
+    "fit_score": 8,
+    "alerted": true
   }
 }
