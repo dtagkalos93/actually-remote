@@ -226,5 +226,171 @@
     "title": "Solutions Architect (East & Central) US (Remote)",
     "fit_score": 2,
     "alerted": false
+  },
+  "https://job-boards.greenhouse.io/hightouch/jobs/4782625004": {
+    "first_seen": "2026-03-16T11:41:20.573375",
+    "company": "Hightouch",
+    "title": "Software Engineer, Customer Studio BackendRemote (North America)",
+    "fit_score": 8,
+    "alerted": true
+  },
+  "https://job-boards.greenhouse.io/hightouch/jobs/4782632004": {
+    "first_seen": "2026-03-16T11:41:40.766132",
+    "company": "Hightouch",
+    "title": "Software Engineer, Distributed SystemsRemote (North America)",
+    "fit_score": 8,
+    "alerted": true
+  },
+  "https://job-boards.greenhouse.io/hightouch/jobs/5426891004": {
+    "first_seen": "2026-03-16T11:42:02.055721",
+    "company": "Hightouch",
+    "title": "Software Engineer, Control PlaneRemote (North America)",
+    "fit_score": 8,
+    "alerted": true
+  },
+  "https://job-boards.greenhouse.io/hightouch/jobs/5542602004": {
+    "first_seen": "2026-03-16T11:42:23.018878",
+    "company": "Hightouch",
+    "title": "Software Engineer, AI AgentsRemote (North America)",
+    "fit_score": 9,
+    "alerted": true
+  },
+  "https://job-boards.greenhouse.io/hightouch/jobs/5698845004": {
+    "first_seen": "2026-03-16T11:42:42.621644",
+    "company": "Hightouch",
+    "title": "Software Engineer, JourneysRemote (North America)",
+    "fit_score": 8,
+    "alerted": true
+  },
+  "https://job-boards.greenhouse.io/hightouch/jobs/5701750004": {
+    "first_seen": "2026-03-16T11:43:01.854328",
+    "company": "Hightouch",
+    "title": "Developer Productivity EngineerRemote (North America)",
+    "fit_score": 8,
+    "alerted": true
+  },
+  "https://job-boards.greenhouse.io/hightouch/jobs/5731011004": {
+    "first_seen": "2026-03-16T11:43:25.699789",
+    "company": "Hightouch",
+    "title": "Software Engineer, Streaming SystemsRemote (North America)",
+    "fit_score": 8,
+    "alerted": true
+  },
+  "https://job-boards.greenhouse.io/hightouch/jobs/5809895004": {
+    "first_seen": "2026-03-16T11:43:43.581440",
+    "company": "Hightouch",
+    "title": "Software Engineer - AI ProductivityRemote (North America)",
+    "fit_score": 8,
+    "alerted": true
+  },
+  "https://job-boards.greenhouse.io/alpaca/jobs/5612069004": {
+    "first_seen": "2026-03-16T11:44:03.897353",
+    "company": "Alpaca",
+    "title": "Senior Software Engineer – Advisory SuiteEurope",
+    "fit_score": 8,
+    "alerted": true
+  },
+  "https://job-boards.greenhouse.io/alpaca/jobs/5770171004": {
+    "first_seen": "2026-03-16T11:44:23.710116",
+    "company": "Alpaca",
+    "title": "Senior Software Engineer - IndiaRemote - India",
+    "fit_score": 8,
+    "alerted": true
+  },
+  "https://job-boards.greenhouse.io/alpaca/jobs/5628538004": {
+    "first_seen": "2026-03-16T11:44:41.218749",
+    "company": "Alpaca",
+    "title": "Senior Software Engineer - Market DataNorth America",
+    "fit_score": 8,
+    "alerted": true
+  },
+  "https://job-boards.greenhouse.io/alpaca/jobs/5704644004": {
+    "first_seen": "2026-03-16T11:44:58.435685",
+    "company": "Alpaca",
+    "title": "Software Engineer, CoreTradingRemote - EMEA",
+    "fit_score": 8,
+    "alerted": true
+  },
+  "https://job-boards.greenhouse.io/alpaca/jobs/5826318004": {
+    "first_seen": "2026-03-16T11:45:18.815542",
+    "company": "Alpaca",
+    "title": "Staff Software EngineerNewRemote - EMEA",
+    "fit_score": 9,
+    "alerted": true
+  },
+  "https://cast.ai/careers/apply/?gh_jid=4116319009": {
+    "first_seen": "2026-03-16T11:45:48.802005",
+    "company": "Cast AI",
+    "title": "Senior Software Engineer – Autoscaler",
+    "fit_score": 8,
+    "alerted": true
+  },
+  "https://cast.ai/careers/apply/?gh_jid=4136062009": {
+    "first_seen": "2026-03-16T11:46:08.973787",
+    "company": "Cast AI",
+    "title": "Senior Software Engineer – Billy Team",
+    "fit_score": 9,
+    "alerted": true
+  },
+  "https://cast.ai/careers/apply/?gh_jid=4037443009": {
+    "first_seen": "2026-03-16T11:46:26.671427",
+    "company": "Cast AI",
+    "title": "Senior Software Engineer – Identity team",
+    "fit_score": 9,
+    "alerted": true
+  },
+  "https://cast.ai/careers/apply/?gh_jid=4110247009": {
+    "first_seen": "2026-03-16T11:46:49.515081",
+    "company": "Cast AI",
+    "title": "Senior Software Engineer – Karpenter",
+    "fit_score": 6,
+    "alerted": false
+  },
+  "https://cast.ai/careers/apply/?gh_jid=4136059009": {
+    "first_seen": "2026-03-16T11:47:06.465476",
+    "company": "Cast AI",
+    "title": "Senior Software Engineer – Live",
+    "fit_score": 8,
+    "alerted": true
+  },
+  "https://cast.ai/careers/apply/?gh_jid=4011482009": {
+    "first_seen": "2026-03-16T11:47:26.039610",
+    "company": "Cast AI",
+    "title": "Senior Software Engineer – OMNI",
+    "fit_score": 7,
+    "alerted": true
+  },
+  "https://cast.ai/careers/apply/?gh_jid=4140523009": {
+    "first_seen": "2026-03-16T11:47:45.301542",
+    "company": "Cast AI",
+    "title": "Senior Software Engineer – Platform Team",
+    "fit_score": 8,
+    "alerted": true
+  },
+  "https://cast.ai/careers/apply/?gh_jid=4066621009": {
+    "first_seen": "2026-03-16T11:48:03.765354",
+    "company": "Cast AI",
+    "title": "Senior Software Engineer – Pricing",
+    "fit_score": 8,
+    "alerted": true
+  },
+  "https://cast.ai/careers/apply/?gh_jid=4129602009": {
+    "first_seen": "2026-03-16T11:48:21.170983",
+    "company": "Cast AI",
+    "title": "Senior Software Engineer – Reporting",
+    "fit_score": 8,
+    "alerted": true
+  },
+  "https://cast.ai/careers/apply/?gh_jid=4121173009": {
+    "status": "ai_failed",
+    "title": "Senior Software Engineer – Storage Optimization"
+  },
+  "https://cast.ai/careers/apply/?gh_jid=4011479009": {
+    "status": "ai_failed",
+    "title": "Senior Software Engineer – Workload Optimization"
+  },
+  "https://cast.ai/careers/apply/?gh_jid=4013937009": {
+    "status": "ai_failed",
+    "title": "Senior Software Engineer – Database Optimizer"
   }
 }
