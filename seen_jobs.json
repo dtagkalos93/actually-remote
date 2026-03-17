@@ -392,5 +392,27 @@
   "https://cast.ai/careers/apply/?gh_jid=4013937009": {
     "status": "ai_failed",
     "title": "Senior Software Engineer – Database Optimizer"
+  },
+  "https://job-boards.greenhouse.io/clickhouse/jobs/5658009004": {
+    "first_seen": "2026-03-17T05:58:34.797769",
+    "company": "ClickHouse",
+    "title": "Cloud Software Engineer - Observability PlatformCanada (remote)",
+    "fit_score": 8,
+    "alerted": true
+  },
+  "https://job-boards.greenhouse.io/clickhouse/jobs/5755092004": {
+    "first_seen": "2026-03-17T05:58:56.895287",
+    "company": "ClickHouse",
+    "title": "Core Software Engineer (C++) - RemoteGermany (remote)",
+    "fit_score": 3,
+    "alerted": false
+  },
+  "https://job-boards.greenhouse.io/clickhouse/jobs/5755090004": {
+    "status": "ai_failed",
+    "title": "Core Software Engineer (C++) - RemoteNetherlands (remote)"
+  },
+  "https://job-boards.greenhouse.io/clickhouse/jobs/5767816004": {
+    "status": "ai_failed",
+    "title": "Core Software Engineer (C++) - RemoteIndia (remote)"
   }
 }
