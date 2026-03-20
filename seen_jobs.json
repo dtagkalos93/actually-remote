@@ -414,5 +414,47 @@
   "https://job-boards.greenhouse.io/clickhouse/jobs/5767816004": {
     "status": "ai_failed",
     "title": "Core Software Engineer (C++) - RemoteIndia (remote)"
+  },
+  "https://job-boards.greenhouse.io/pandadoc/jobs/7178168": {
+    "first_seen": "2026-03-20T05:51:19.219807",
+    "company": "PandaDoc",
+    "title": "Senior Python Engineer, Application PlatformRemote (Poland)",
+    "fit_score": 9,
+    "alerted": true
+  },
+  "https://job-boards.greenhouse.io/pandadoc/jobs/7178170": {
+    "first_seen": "2026-03-20T05:51:33.680867",
+    "company": "PandaDoc",
+    "title": "Senior Python Engineer, Application PlatformRemote (Ukraine)",
+    "fit_score": 9,
+    "alerted": true
+  },
+  "https://job-boards.greenhouse.io/pandadoc/jobs/7178169": {
+    "first_seen": "2026-03-20T05:51:54.981647",
+    "company": "PandaDoc",
+    "title": "Senior Python Engineer, Application PlatformRemote (Portugal)",
+    "fit_score": 9,
+    "alerted": true
+  },
+  "https://job-boards.greenhouse.io/pandadoc/jobs/7178171": {
+    "first_seen": "2026-03-20T05:52:11.679012",
+    "company": "PandaDoc",
+    "title": "Senior Python Engineer, Application PlatformRemote (Europe)",
+    "fit_score": 9,
+    "alerted": true
+  },
+  "https://job-boards.greenhouse.io/pandadoc/jobs/7621721": {
+    "first_seen": "2026-03-20T05:52:27.182196",
+    "company": "PandaDoc",
+    "title": "Senior Software Engineer, Core UX PlatformRemote (Europe)",
+    "fit_score": 9,
+    "alerted": true
+  },
+  "https://job-boards.greenhouse.io/pandadoc/jobs/7621722": {
+    "first_seen": "2026-03-20T05:52:42.520422",
+    "company": "PandaDoc",
+    "title": "Senior Software Engineer, Core UX PlatformRemote (Poland)",
+    "fit_score": 9,
+    "alerted": true
   }
 }
