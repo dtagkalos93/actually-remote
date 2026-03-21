@@ -456,5 +456,67 @@
     "title": "Senior Software Engineer, Core UX PlatformRemote (Poland)",
     "fit_score": 9,
     "alerted": true
+  },
+  "https://remote.com/openings/7660515003": {
+    "first_seen": "2026-03-21T05:39:49.159865",
+    "company": "Remote",
+    "title": "Senior Backend Developer",
+    "fit_score": 8,
+    "alerted": true
+  },
+  "https://job-boards.greenhouse.io/runpod/jobs/4142227008": {
+    "first_seen": "2026-03-21T05:40:07.574763",
+    "company": "Runpod",
+    "title": "Senior Software Engineer (Cloud) Remote, USA",
+    "fit_score": 8,
+    "alerted": true
+  },
+  "https://job-boards.greenhouse.io/runpod/jobs/4785681008": {
+    "first_seen": "2026-03-21T05:40:25.926167",
+    "company": "Runpod",
+    "title": "Software Engineer (Full-Stack) Remote, USA",
+    "fit_score": 8,
+    "alerted": true
+  },
+  "https://www.sanity.io/careers/senior-software-engineer-ai-growth": {
+    "first_seen": "2026-03-21T05:40:48.923936",
+    "company": "Sanity",
+    "title": "Senior Software Engineer, AI Growth",
+    "fit_score": 8,
+    "alerted": true
+  },
+  "https://www.sanity.io/careers/software-engineering-manager-ai-growth": {
+    "first_seen": "2026-03-21T05:41:11.618610",
+    "company": "Sanity",
+    "title": "Software Engineering Manager, AI Growth",
+    "fit_score": 8,
+    "alerted": true
+  },
+  "https://www.sanity.io/careers/software-engineering-manager-content-agent": {
+    "status": "skipped_location",
+    "title": "Software Engineering Manager, Content Agent"
+  },
+  "https://www.sanity.io/careers/software-engineering-manager-sanity-studio": {
+    "status": "skipped_location",
+    "title": "Software Engineering Manager, Sanity Studio"
+  },
+  "https://www.sanity.io/careers/senior-developer-content-lead": {
+    "first_seen": "2026-03-21T05:41:37.466907",
+    "company": "Sanity",
+    "title": "Senior Developer Content Lead",
+    "fit_score": 7,
+    "alerted": true
+  },
+  "https://www.sardine.ai/job-listings/software-engineer-backend": {
+    "status": "skipped_location",
+    "title": "Software Engineer - BackendEngineering"
+  },
+  "https://www.sardine.ai/job-listings/software-engineer-frontend": {
+    "status": "skipped_location",
+    "title": "Software Engineer - FrontendEngineering"
+  },
+  "https://semaphore.bamboohr.com/careers/41?source=aWQ9MjI%3D": {
+    "status": "skipped_location",
+    "title": "Senior Software Engineer↗"
   }
 }
