@@ -518,5 +518,33 @@
   "https://semaphore.bamboohr.com/careers/41?source=aWQ9MjI%3D": {
     "status": "skipped_location",
     "title": "Senior Software Engineer↗"
+  },
+  "https://www.upwind.io/careers/co/iceland/BA.04F/backend-developer-iceland/all": {
+    "first_seen": "2026-03-22T05:52:37.368720",
+    "company": "Upwind",
+    "title": "Backend Developer (Iceland) Iceland · Full-time",
+    "fit_score": 9,
+    "alerted": true
+  },
+  "https://www.upwind.io/careers/co/tel-aviv/BA.04A/backend-software-engineer/all": {
+    "first_seen": "2026-03-22T05:52:54.345119",
+    "company": "Upwind",
+    "title": "Backend Software Engineer Tel Aviv · Full-time",
+    "fit_score": 8,
+    "alerted": true
+  },
+  "https://www.upwind.io/careers/co/tel-aviv/CA.042/frontend-software-engineer/all": {
+    "first_seen": "2026-03-22T05:53:15.359655",
+    "company": "Upwind",
+    "title": "Frontend Software Engineer Tel Aviv · Full-time",
+    "fit_score": 1,
+    "alerted": false
+  },
+  "https://www.upwind.io/careers/co/us-remote/06.46A/macos-developer/all": {
+    "first_seen": "2026-03-22T05:53:43.183160",
+    "company": "Upwind",
+    "title": "MacOS developer US (Remote)",
+    "fit_score": 2,
+    "alerted": false
   }
 }
