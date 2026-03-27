@@ -546,5 +546,61 @@
     "title": "MacOS developer US (Remote)",
     "fit_score": 2,
     "alerted": false
+  },
+  "https://job-boards.greenhouse.io/pandadoc/jobs/7743324": {
+    "first_seen": "2026-03-27T06:11:54.303899",
+    "company": "PandaDoc",
+    "title": "Middle Python Engineer, Document Apptags.newRemote (Europe)",
+    "fit_score": 9,
+    "alerted": true
+  },
+  "https://job-boards.greenhouse.io/pandadoc/jobs/7743325": {
+    "first_seen": "2026-03-27T06:12:12.666833",
+    "company": "PandaDoc",
+    "title": "Middle Python Engineer, Document Apptags.newRemote (Portugal)",
+    "fit_score": 8,
+    "alerted": true
+  },
+  "https://job-boards.greenhouse.io/pandadoc/jobs/7743326": {
+    "first_seen": "2026-03-27T06:12:31.888712",
+    "company": "PandaDoc",
+    "title": "Middle Python Engineer, Document Apptags.newRemote (Ukraine)",
+    "fit_score": 9,
+    "alerted": true
+  },
+  "https://job-boards.greenhouse.io/pandadoc/jobs/7748680": {
+    "first_seen": "2026-03-27T06:12:48.431380",
+    "company": "PandaDoc",
+    "title": "Middle Python Engineer, Document Apptags.newRemote (Poland)",
+    "fit_score": 8,
+    "alerted": true
+  },
+  "https://job-boards.greenhouse.io/pandadoc/jobs/7742900": {
+    "first_seen": "2026-03-27T06:13:03.991205",
+    "company": "PandaDoc",
+    "title": "Senior Python Engineer, Document Apptags.newRemote (Europe)",
+    "fit_score": 9,
+    "alerted": true
+  },
+  "https://job-boards.greenhouse.io/pandadoc/jobs/7743020": {
+    "first_seen": "2026-03-27T06:13:19.779037",
+    "company": "PandaDoc",
+    "title": "Senior Python Engineer, Document Apptags.newRemote (Portugal)",
+    "fit_score": 8,
+    "alerted": true
+  },
+  "https://job-boards.greenhouse.io/pandadoc/jobs/7743023": {
+    "first_seen": "2026-03-27T06:13:36.489244",
+    "company": "PandaDoc",
+    "title": "Senior Python Engineer, Document Apptags.newRemote (Ukraine)",
+    "fit_score": 8,
+    "alerted": true
+  },
+  "https://job-boards.greenhouse.io/pandadoc/jobs/7743031": {
+    "first_seen": "2026-03-27T06:13:51.508896",
+    "company": "PandaDoc",
+    "title": "Senior Python Engineer, Document Apptags.newRemote (Poland)",
+    "fit_score": 9,
+    "alerted": true
   }
 }
