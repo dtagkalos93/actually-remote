@@ -613,5 +613,24 @@
   "https://jobs.ashbyhq.com/infisical/38c220aa-f9e9-4fad-8f19-c01cfb4aa1f5": {
     "status": "skipped_location",
     "title": "Developer Advocate (US & Canada)Apply"
+  },
+  "https://jobs.ashbyhq.com/supabase/77439e1c-e4eb-483c-aa8e-7686913886e3": {
+    "status": "ai_failed",
+    "title": "Foundation Engineer (Golang) - AuthRemoteApply for position"
+  },
+  "https://job-boards.greenhouse.io/pandadoc/jobs/7621725": {
+    "status": "ai_failed",
+    "title": "Senior Software Engineer, Core UX PlatformRemote (Portugal)"
+  },
+  "https://job-boards.greenhouse.io/pandadoc/jobs/7621726": {
+    "status": "ai_failed",
+    "title": "Senior Software Engineer, Core UX PlatformRemote (Ukraine)"
+  },
+  "https://job-boards.greenhouse.io/pandadoc/jobs/7557558": {
+    "first_seen": "2026-04-10T06:52:52.236818",
+    "company": "PandaDoc",
+    "title": "Senior Web DeveloperRemote (USA)",
+    "fit_score": 9,
+    "alerted": true
   }
 }
