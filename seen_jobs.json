@@ -639,5 +639,16 @@
     "title": "Developer Relations Community Manager NewRemote, USA",
     "fit_score": 8,
     "alerted": true
+  },
+  "https://cast.ai/careers/apply/?gh_jid=4218956009": {
+    "status": "ai_failed",
+    "title": "Senior Software Engineer"
+  },
+  "https://cast.ai/careers/apply/?gh_jid=4218955009": {
+    "first_seen": "2026-04-20T07:14:39.434789",
+    "company": "Cast AI",
+    "title": "Senior Software Engineer – Infrastructure",
+    "fit_score": 8,
+    "alerted": true
   }
 }
