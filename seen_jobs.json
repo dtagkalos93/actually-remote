@@ -658,5 +658,16 @@
   "https://job-boards.greenhouse.io/planetscale/jobs/4021848009": {
     "status": "ai_failed",
     "title": "Developer EducatorSan Francisco and/or US Remote"
+  },
+  "https://www.sanity.io/careers/senior-software-engineer-content-agent": {
+    "status": "skipped_location",
+    "title": "Senior Software Engineer, Content Agent"
+  },
+  "https://www.sanity.io/careers/senior-software-engineer-identity": {
+    "first_seen": "2026-04-25T06:20:08.845387",
+    "company": "Sanity",
+    "title": "Senior Software Engineer, Identity",
+    "fit_score": 8,
+    "alerted": true
   }
 }
