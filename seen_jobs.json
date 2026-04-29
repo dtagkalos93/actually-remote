@@ -669,5 +669,21 @@
     "title": "Senior Software Engineer, Identity",
     "fit_score": 8,
     "alerted": true
+  },
+  "https://job-boards.greenhouse.io/hightouch/jobs/5983811004": {
+    "status": "ai_failed",
+    "title": "Software Engineer, Customer Studio BackendRemote (North America)"
+  },
+  "https://job-boards.greenhouse.io/hightouch/jobs/5983863004": {
+    "status": "ai_failed",
+    "title": "Software Engineer, Streaming SystemsRemote (North America)"
+  },
+  "https://job-boards.greenhouse.io/hightouch/jobs/5983891004": {
+    "status": "ai_failed",
+    "title": "Software Engineer, Control PlaneRemote (North America)"
+  },
+  "https://elevenlabs.io/careers/b6fb095b-cb0e-4926-9ad6-3004744ca7a4/developer-marketing-lead": {
+    "status": "ai_failed",
+    "title": "Developer Marketing LeadRemoteUnited Kingdom+1 more"
   }
 }
