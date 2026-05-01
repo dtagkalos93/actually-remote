@@ -685,5 +685,12 @@
   "https://elevenlabs.io/careers/b6fb095b-cb0e-4926-9ad6-3004744ca7a4/developer-marketing-lead": {
     "status": "ai_failed",
     "title": "Developer Marketing LeadRemoteUnited Kingdom+1 more"
+  },
+  "https://linear.app/careers/62a4524c-75da-499e-b150-7f68ce9f2da3": {
+    "first_seen": "2026-05-01T07:24:49.011805",
+    "company": "Linear",
+    "title": "Developer MarketingEurope, North AmericaLearn more→",
+    "fit_score": 8,
+    "alerted": true
   }
 }
