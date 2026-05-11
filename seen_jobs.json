@@ -692,5 +692,19 @@
     "title": "Developer MarketingEurope, North AmericaLearn more→",
     "fit_score": 8,
     "alerted": true
+  },
+  "https://job-boards.greenhouse.io/alpaca/jobs/5985818004": {
+    "first_seen": "2026-05-11T08:23:26.831340",
+    "company": "Alpaca",
+    "title": "Senior Software Engineer - ClearingNewRemote - Europe",
+    "fit_score": 8,
+    "alerted": true
+  },
+  "https://cast.ai/careers/apply/?gh_jid=4238687009": {
+    "first_seen": "2026-05-11T08:23:55.855552",
+    "company": "Cast AI",
+    "title": "Developer Relations Engineer – Kimchi",
+    "fit_score": 8,
+    "alerted": true
   }
 }
