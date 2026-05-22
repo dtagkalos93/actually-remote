@@ -721,5 +721,12 @@
   "https://jobs.ashbyhq.com/supabase/621516b5-4d8f-4ee9-8287-2da12e63d023": {
     "status": "skipped_location",
     "title": "OrioleDB Developer (AMER)AMERApply for position"
+  },
+  "https://job-boards.greenhouse.io/planetscale/jobs/4009746009": {
+    "first_seen": "2026-05-22T08:20:48.297331",
+    "company": "Planet Scale",
+    "title": "Software Engineer - PlanetScale VitessEMEA - Remote",
+    "fit_score": 8,
+    "alerted": true
   }
 }
