@@ -728,5 +728,26 @@
     "title": "Software Engineer - PlanetScale VitessEMEA - Remote",
     "fit_score": 8,
     "alerted": true
+  },
+  "https://job-boards.greenhouse.io/clickhouse/jobs/6001254004": {
+    "first_seen": "2026-05-26T08:29:50.047298",
+    "company": "ClickHouse",
+    "title": "Principal Software Engineer - PostgresNewUnited States",
+    "fit_score": 7,
+    "alerted": true
+  },
+  "https://job-boards.greenhouse.io/clickhouse/jobs/6001255004": {
+    "first_seen": "2026-05-26T08:30:19.425811",
+    "company": "ClickHouse",
+    "title": "Principal Software Engineer - PostgresNewIndia (remote)",
+    "fit_score": 8,
+    "alerted": true
+  },
+  "https://job-boards.greenhouse.io/clickhouse/jobs/6001256004": {
+    "first_seen": "2026-05-26T08:30:40.624391",
+    "company": "ClickHouse",
+    "title": "Principal Software Engineer - PostgresNewNetherlands",
+    "fit_score": 6,
+    "alerted": false
   }
 }
