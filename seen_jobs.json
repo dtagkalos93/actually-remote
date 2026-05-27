@@ -749,5 +749,12 @@
     "title": "Principal Software Engineer - PostgresNewNetherlands",
     "fit_score": 6,
     "alerted": false
+  },
+  "https://elevenlabs.io/careers/6c4c57c1-ec72-42ba-af3a-eb7aebbde2e6/forward-deployed-engineer-software-engineer": {
+    "first_seen": "2026-05-27T08:37:19.304142",
+    "company": "ElevenLabs",
+    "title": "Forward Deployed Engineer - Software EngineerRemoteBrazil+4 more",
+    "fit_score": 8,
+    "alerted": true
   }
 }
