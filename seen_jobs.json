@@ -763,5 +763,16 @@
     "title": "Software Engineer - PlatformEMEA Remote",
     "fit_score": 8,
     "alerted": true
+  },
+  "https://job-boards.greenhouse.io/hightouch/jobs/6004706004": {
+    "first_seen": "2026-05-30T07:40:11.512727",
+    "company": "Hightouch",
+    "title": "Software Engineer, Native DeliveryRemote (North America)",
+    "fit_score": 8,
+    "alerted": true
+  },
+  "https://www.sanity.io/careers/senior-developer-advocate-ai-engineering": {
+    "status": "skipped_location",
+    "title": "Senior Developer Advocate, AI Engineering"
   }
 }
