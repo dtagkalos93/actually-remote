@@ -774,5 +774,41 @@
   "https://www.sanity.io/careers/senior-developer-advocate-ai-engineering": {
     "status": "skipped_location",
     "title": "Senior Developer Advocate, AI Engineering"
+  },
+  "https://cast.ai/careers/apply/?gh_jid=4258333009": {
+    "first_seen": "2026-06-01T10:17:42.315647",
+    "company": "Cast AI",
+    "title": "Developer Relations/Experience Engineer – Kimchi",
+    "fit_score": 8,
+    "alerted": true
+  },
+  "https://cast.ai/careers/apply/?gh_jid=4258335009": {
+    "first_seen": "2026-06-01T10:18:19.741132",
+    "company": "Cast AI",
+    "title": "Developer Relations/Experience Engineer – Kimchi",
+    "fit_score": 8,
+    "alerted": true
+  },
+  "https://cast.ai/careers/apply/?gh_jid=4258334009": {
+    "first_seen": "2026-06-01T10:18:38.349369",
+    "company": "Cast AI",
+    "title": "Developer Relations/Experience Engineer – Kimchi",
+    "fit_score": 8,
+    "alerted": true
+  },
+  "https://cast.ai/careers/apply/?gh_jid=4258340009": {
+    "first_seen": "2026-06-01T10:18:55.160117",
+    "company": "Cast AI",
+    "title": "Senior Software Engineer – Database Optimizer",
+    "fit_score": 8,
+    "alerted": true
+  },
+  "https://cast.ai/careers/apply/?gh_jid=4258342009": {
+    "status": "ai_failed",
+    "title": "Senior Software Engineer – Database Optimizer"
+  },
+  "https://cast.ai/careers/apply/?gh_jid=4258343009": {
+    "status": "ai_failed",
+    "title": "Senior Software Engineer – Database Optimizer"
   }
 }
