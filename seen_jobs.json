@@ -810,5 +810,12 @@
   "https://cast.ai/careers/apply/?gh_jid=4258343009": {
     "status": "ai_failed",
     "title": "Senior Software Engineer – Database Optimizer"
+  },
+  "https://job-boards.greenhouse.io/planetscale/jobs/4251150009": {
+    "first_seen": "2026-06-05T08:42:25.538937",
+    "company": "Planet Scale",
+    "title": "Software Engineer - PlanetScale PostgresRemote",
+    "fit_score": 7,
+    "alerted": true
   }
 }
