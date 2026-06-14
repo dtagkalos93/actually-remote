@@ -821,5 +821,12 @@
   "https://elevenlabs.io/careers/db88ce4f-44a0-425c-88c4-1951c467c627/developer-community-growth": {
     "status": "ai_failed",
     "title": "Developer Community GrowthRemoteSan Francisco+1 more"
+  },
+  "https://www.upwind.io/careers/co/tel-aviv/4C.C69/ai-software-engineer/all": {
+    "first_seen": "2026-06-14T08:39:52.115434",
+    "company": "Upwind",
+    "title": "AI Software Engineer Tel Aviv · Full-time",
+    "fit_score": 8,
+    "alerted": true
   }
 }
