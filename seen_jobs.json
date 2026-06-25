@@ -832,5 +832,12 @@
   "https://job-boards.greenhouse.io/assemblyai/jobs/4703690005": {
     "status": "skipped_location",
     "title": "Marketing Developer Relations Evangelist San Francisco Apply"
+  },
+  "https://jobs.ashbyhq.com/supabase/e569b7f7-fa8f-4139-86f6-4f52b456882d": {
+    "first_seen": "2026-06-25T08:21:25.971438",
+    "company": "Supabase",
+    "title": "Software Engineer - AuthRemoteApply for position",
+    "fit_score": 9,
+    "alerted": true
   }
 }
