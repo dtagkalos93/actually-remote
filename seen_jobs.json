@@ -839,5 +839,9 @@
     "title": "Software Engineer - AuthRemoteApply for position",
     "fit_score": 9,
     "alerted": true
+  },
+  "https://infisical.com/careers/developer-advocate": {
+    "status": "skipped_location",
+    "title": "↳Developer AdvocateUnited States & Canada"
   }
 }
