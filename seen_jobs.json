@@ -843,5 +843,16 @@
   "https://infisical.com/careers/developer-advocate": {
     "status": "skipped_location",
     "title": "↳Developer AdvocateUnited States & Canada"
+  },
+  "https://railway.com/careers/senior-software-engineer-support": {
+    "first_seen": "2026-07-04T07:44:47.111835",
+    "company": "Railway",
+    "title": "Senior Software Engineer, SupportAnywhere",
+    "fit_score": 8,
+    "alerted": true
+  },
+  "https://www.sanity.io/careers/software-engineering-manager-web": {
+    "status": "skipped_location",
+    "title": "Software Engineering Manager, Web"
   }
 }
