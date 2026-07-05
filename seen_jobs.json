@@ -854,5 +854,23 @@
   "https://www.sanity.io/careers/software-engineering-manager-web": {
     "status": "skipped_location",
     "title": "Software Engineering Manager, Web"
+  },
+  "https://jobs.lever.co/yuno/a9a5abcc-112c-47a3-ba23-6a153c764375": {
+    "status": "failed_jd_fetch",
+    "title": "(Golang) Backend Developer - IntegrationsShanghai"
+  },
+  "https://jobs.lever.co/yuno/6322b29f-238e-4ba9-ae00-8f892f423a31": {
+    "first_seen": "2026-07-05T07:55:11.194548",
+    "company": "Yuno",
+    "title": "Backend Developer - Core PaymentsBogota",
+    "fit_score": 8,
+    "alerted": true
+  },
+  "https://jobs.lever.co/yuno/df9e4790-3626-478b-85c1-6fe861fa4a57": {
+    "first_seen": "2026-07-05T07:55:30.533348",
+    "company": "Yuno",
+    "title": "Backend Developer (Java) - Core PaymentsHyderabad",
+    "fit_score": 4,
+    "alerted": false
   }
 }
