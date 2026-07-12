@@ -872,5 +872,33 @@
     "title": "Backend Developer (Java) - Core PaymentsHyderabad",
     "fit_score": 4,
     "alerted": false
+  },
+  "https://jobs.lever.co/yuno/e65e0311-c808-4e33-a58d-46f0df54ee30": {
+    "first_seen": "2026-07-12T07:27:25.231702",
+    "company": "Yuno",
+    "title": "(Golang) Backend Developer - IntegrationsShanghai",
+    "fit_score": 8,
+    "alerted": true
+  },
+  "https://jobs.lever.co/yuno/09574e89-949a-451a-9ef6-efaa62d96b31": {
+    "first_seen": "2026-07-12T07:27:40.141551",
+    "company": "Yuno",
+    "title": "Senior Backend DeveloperHyderabad",
+    "fit_score": 2,
+    "alerted": false
+  },
+  "https://jobs.lever.co/yuno/723e5955-8391-4213-ba50-5e4f1eac32bb": {
+    "first_seen": "2026-07-12T07:28:18.469158",
+    "company": "Yuno",
+    "title": "Senior Web DeveloperNetherlands",
+    "fit_score": 5,
+    "alerted": false
+  },
+  "https://jobs.lever.co/yuno/66a244ad-f5d8-44f5-a4b2-2be6958b1799": {
+    "first_seen": "2026-07-12T07:28:46.921103",
+    "company": "Yuno",
+    "title": "Junior Software DeveloperKSA",
+    "fit_score": 8,
+    "alerted": true
   }
 }
