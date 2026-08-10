@@ -921,5 +921,33 @@
     "title": "Senior Software Engineer - TradingNewRemote - Americas",
     "fit_score": 7,
     "alerted": true
+  },
+  "https://job-boards.greenhouse.io/alpaca/jobs/6132147004": {
+    "first_seen": "2026-08-10T06:09:27.788824",
+    "company": "Alpaca",
+    "title": "Senior Software Engineer New MarketsNewRemote - Americas",
+    "fit_score": 8,
+    "alerted": true
+  },
+  "https://job-boards.greenhouse.io/alpaca/jobs/6132158004": {
+    "first_seen": "2026-08-10T06:09:49.367155",
+    "company": "Alpaca",
+    "title": "Senior Software Engineer New MarketsNewRemote - EMEA",
+    "fit_score": 8,
+    "alerted": true
+  },
+  "https://job-boards.greenhouse.io/alpaca/jobs/6132138004": {
+    "first_seen": "2026-08-10T06:10:10.795309",
+    "company": "Alpaca",
+    "title": "Senior Software Engineer New MarketsNewRemote - Americas",
+    "fit_score": 8,
+    "alerted": true
+  },
+  "https://job-boards.greenhouse.io/assemblyai/jobs/4699429005": {
+    "first_seen": "2026-08-10T06:10:33.692939",
+    "company": "AssemblyAI",
+    "title": "Engineering Senior Software Engineer, Security Remote Apply",
+    "fit_score": 8,
+    "alerted": true
   }
 }
