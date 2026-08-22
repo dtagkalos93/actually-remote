@@ -963,5 +963,9 @@
     "title": "Developer Relations EngineerRemote, AnywhereApply for position",
     "fit_score": 8,
     "alerted": true
+  },
+  "https://www.sanity.io/careers/software-engineering-manager-sdk": {
+    "status": "skipped_location",
+    "title": "Software Engineering Manager, SDK"
   }
 }
