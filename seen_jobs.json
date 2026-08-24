@@ -967,5 +967,12 @@
   "https://www.sanity.io/careers/software-engineering-manager-sdk": {
     "status": "skipped_location",
     "title": "Software Engineering Manager, SDK"
+  },
+  "https://job-boards.greenhouse.io/alpaca/jobs/6144564004": {
+    "first_seen": "2026-08-24T05:35:48.763748",
+    "company": "Alpaca",
+    "title": "Software Engineer - Market Datatags.newRemote - EMEA",
+    "fit_score": 8,
+    "alerted": true
   }
 }
