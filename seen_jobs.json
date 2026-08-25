@@ -974,5 +974,58 @@
     "title": "Software Engineer - Market Datatags.newRemote - EMEA",
     "fit_score": 8,
     "alerted": true
+  },
+  "https://job-boards.greenhouse.io/clickhouse/jobs/6130195004": {
+    "first_seen": "2026-08-25T05:29:00.210113",
+    "company": "ClickHouse",
+    "title": "Cloud Software Engineer - Observability PlatformNewCanada (remote)",
+    "fit_score": 9,
+    "alerted": true
+  },
+  "https://job-boards.greenhouse.io/clickhouse/jobs/6142785004": {
+    "first_seen": "2026-08-25T05:29:20.920808",
+    "company": "ClickHouse",
+    "title": "Senior Cloud Software Engineer - Efficiency EngineeringCanada(Remote)",
+    "fit_score": 8,
+    "alerted": true
+  },
+  "https://job-boards.greenhouse.io/customerio/jobs/7776591": {
+    "status": "ai_failed",
+    "title": "Senior Software Engineer, Full StackAmericasRemoteApply"
+  },
+  "https://job-boards.greenhouse.io/customerio/jobs/7776635": {
+    "first_seen": "2026-08-25T05:30:32.537938",
+    "company": "Customer.io",
+    "title": "Senior Software Engineer, Full StackEMEARemoteApply",
+    "fit_score": 8,
+    "alerted": true
+  },
+  "https://job-boards.greenhouse.io/customerio/jobs/7778289": {
+    "first_seen": "2026-08-25T05:30:54.258498",
+    "company": "Customer.io",
+    "title": "Senior Software Engineer, BackendAmericasRemoteApply",
+    "fit_score": 8,
+    "alerted": true
+  },
+  "https://job-boards.greenhouse.io/customerio/jobs/7778291": {
+    "first_seen": "2026-08-25T05:31:12.594092",
+    "company": "Customer.io",
+    "title": "Senior Software Engineer, BackendEMEARemoteApply",
+    "fit_score": 8,
+    "alerted": true
+  },
+  "https://job-boards.greenhouse.io/customerio/jobs/7914033": {
+    "first_seen": "2026-08-25T05:31:43.540950",
+    "company": "Customer.io",
+    "title": "Senior Software Engineer - Email ChannelAmericasRemoteApply",
+    "fit_score": 6,
+    "alerted": false
+  },
+  "https://job-boards.greenhouse.io/customerio/jobs/8055585": {
+    "first_seen": "2026-08-25T05:32:02.915886",
+    "company": "Customer.io",
+    "title": "Senior Software Engineer - Backend PlatformAmericasRemoteApply",
+    "fit_score": 9,
+    "alerted": true
   }
 }
