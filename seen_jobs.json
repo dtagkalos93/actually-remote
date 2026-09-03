@@ -1038,5 +1038,12 @@
   "https://job-boards.greenhouse.io/alpaca/jobs/6145152004": {
     "status": "ai_failed",
     "title": "Software Engineer - Advisory Suitetags.newRemote - Europe"
+  },
+  "https://jobs.ashbyhq.com/supabase/06752423-eebb-472c-95b5-c7ff2559fd60": {
+    "first_seen": "2026-09-03T09:27:03.237741",
+    "company": "Supabase",
+    "title": "Software Engineer - BranchingRemote, GlobalApply for position",
+    "fit_score": 8,
+    "alerted": true
   }
 }
