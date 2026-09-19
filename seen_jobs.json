@@ -1067,5 +1067,19 @@
   "https://job-boards.greenhouse.io/assemblyai/jobs/4729804005": {
     "status": "skipped_location",
     "title": "Engineering Senior Software Engineer, Inference Toronto Apply"
+  },
+  "https://resend.com/careers/df2fe05d-87ca-4e87-a66d-50bb2c9c4859": {
+    "first_seen": "2026-09-19T09:10:55.367524",
+    "company": "Resend",
+    "title": "Software Engineer, BackendAmericas / Remote / Full-time",
+    "fit_score": 8,
+    "alerted": true
+  },
+  "https://resend.com/careers/6589bee8-3ec9-4620-90b6-890b23464c4d": {
+    "first_seen": "2026-09-19T09:11:18.758031",
+    "company": "Resend",
+    "title": "Software Engineer, BackendEurope / Remote / Full-time",
+    "fit_score": 8,
+    "alerted": true
   }
 }
