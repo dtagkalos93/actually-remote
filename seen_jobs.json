@@ -1081,5 +1081,16 @@
     "title": "Software Engineer, BackendEurope / Remote / Full-time",
     "fit_score": 8,
     "alerted": true
+  },
+  "https://job-boards.greenhouse.io/customerio/jobs/8076081": {
+    "status": "ai_failed",
+    "title": "Senior Developer Experience Engineer, IntegrationsAmericasRemoteApply"
+  },
+  "https://job-boards.greenhouse.io/customerio/jobs/8191498": {
+    "first_seen": "2026-09-22T09:38:35.375206",
+    "company": "Customer.io",
+    "title": "Staff Software Engineer, BackendAmericasRemoteApply",
+    "fit_score": 8,
+    "alerted": true
   }
 }
