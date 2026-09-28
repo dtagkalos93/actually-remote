@@ -1099,5 +1099,12 @@
     "title": "Middle .NET Developer",
     "fit_score": 5,
     "alerted": false
+  },
+  "https://cast.ai/careers/apply/?gh_jid=4418273009": {
+    "first_seen": "2026-09-28T11:26:07.531562",
+    "company": "Cast AI",
+    "title": "Senior Software Engineer | Kimchi Studio",
+    "fit_score": 8,
+    "alerted": true
   }
 }
