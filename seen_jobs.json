@@ -1110,5 +1110,61 @@
   "https://job-boards.greenhouse.io/customerio/jobs/8224814": {
     "status": "ai_failed",
     "title": "Staff Software Engineer, ProductAmericasRemoteApply"
+  },
+  "https://hightouch.com/careers/05b91e98-f431-469f-919a-e592f1d43110": {
+    "first_seen": "2026-10-03T10:11:48.275211",
+    "company": "Hightouch",
+    "title": "Developer Productivity EngineerSan Francisco Office",
+    "fit_score": 8,
+    "alerted": true
+  },
+  "https://hightouch.com/careers/83b879e6-628e-41b4-a601-191e2dc69a54": {
+    "first_seen": "2026-10-03T10:12:10.439764",
+    "company": "Hightouch",
+    "title": "Software Engineer, AI AgentsSan Francisco Office",
+    "fit_score": 8,
+    "alerted": true
+  },
+  "https://hightouch.com/careers/6cabea6f-4f1b-4e14-9c1e-e2c1a7ac9413": {
+    "first_seen": "2026-10-03T10:12:38.642170",
+    "company": "Hightouch",
+    "title": "Software Engineer, Applied AI ResearchSan Francisco Office",
+    "fit_score": 8,
+    "alerted": true
+  },
+  "https://hightouch.com/careers/640735c4-2f4e-4b71-bbc0-511305bad3a2": {
+    "first_seen": "2026-10-03T10:12:57.869054",
+    "company": "Hightouch",
+    "title": "Software Engineer, Control PlaneNew York Office",
+    "fit_score": 8,
+    "alerted": true
+  },
+  "https://hightouch.com/careers/3a95437d-4ae5-457d-b4ed-43982280c6e2": {
+    "first_seen": "2026-10-03T10:13:14.151206",
+    "company": "Hightouch",
+    "title": "Software Engineer, Customer Studio BackendNew York Office",
+    "fit_score": 9,
+    "alerted": true
+  },
+  "https://hightouch.com/careers/165e1d03-8765-41d6-98ca-fa3e1f5a7e58": {
+    "first_seen": "2026-10-03T10:13:33.695220",
+    "company": "Hightouch",
+    "title": "Software Engineer, Distributed SystemsNew York Office",
+    "fit_score": 8,
+    "alerted": true
+  },
+  "https://hightouch.com/careers/dbfd96cb-1616-4a2e-a2f8-f78e1ac9e47f": {
+    "first_seen": "2026-10-03T10:13:54.884228",
+    "company": "Hightouch",
+    "title": "Software Engineer, Native DeliveryNew York Office",
+    "fit_score": 8,
+    "alerted": true
+  },
+  "https://hightouch.com/careers/7a0998ca-5130-46dc-af26-25d926edd7cb": {
+    "first_seen": "2026-10-03T10:14:10.687912",
+    "company": "Hightouch",
+    "title": "Software Engineer, Streaming SystemsNew York Office",
+    "fit_score": 8,
+    "alerted": true
   }
 }
