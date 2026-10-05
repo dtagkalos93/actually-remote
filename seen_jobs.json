@@ -1166,5 +1166,17 @@
     "title": "Software Engineer, Streaming SystemsNew York Office",
     "fit_score": 8,
     "alerted": true
+  },
+  "https://cast.ai/careers/apply/?gh_jid=4430819009": {
+    "status": "ai_failed",
+    "title": "Senior Software Engineer | Kimchi (Harness Team)"
+  },
+  "https://cast.ai/careers/apply/?gh_jid=4423837009": {
+    "status": "ai_failed",
+    "title": "Senior Software Engineer | Platform Engineering"
+  },
+  "https://cast.ai/careers/apply/?gh_jid=4423859009": {
+    "status": "ai_failed",
+    "title": "Senior Software Engineer | Product Foundations"
   }
 }
