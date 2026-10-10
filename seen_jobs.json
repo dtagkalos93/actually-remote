@@ -1178,5 +1178,9 @@
   "https://cast.ai/careers/apply/?gh_jid=4423859009": {
     "status": "ai_failed",
     "title": "Senior Software Engineer | Product Foundations"
+  },
+  "https://www.sanity.io/careers/software-engineering-manager-billing-and-integrations": {
+    "status": "skipped_location",
+    "title": "Software Engineering Manager, Billing & Integrations"
   }
 }
