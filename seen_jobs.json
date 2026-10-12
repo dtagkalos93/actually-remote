@@ -1182,5 +1182,12 @@
   "https://www.sanity.io/careers/software-engineering-manager-billing-and-integrations": {
     "status": "skipped_location",
     "title": "Software Engineering Manager, Billing & Integrations"
+  },
+  "https://cast.ai/careers/apply/?gh_jid=4425618009": {
+    "first_seen": "2026-10-12T12:44:39.554794",
+    "company": "Cast AI",
+    "title": "Senior Software Engineer | Kubernetes Automation",
+    "fit_score": 8,
+    "alerted": true
   }
 }
