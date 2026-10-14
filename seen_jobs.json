@@ -1189,5 +1189,12 @@
     "title": "Senior Software Engineer | Kubernetes Automation",
     "fit_score": 8,
     "alerted": true
+  },
+  "https://railway.com/careers/networking": {
+    "first_seen": "2026-10-14T09:54:52.673389",
+    "company": "Railway",
+    "title": "Software Engineer: Machine LearningRemote (anywhere)",
+    "fit_score": 8,
+    "alerted": true
   }
 }
