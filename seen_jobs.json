@@ -1210,5 +1210,19 @@
     "title": "Research Software Engineer Tel Aviv · Full-time",
     "fit_score": 8,
     "alerted": true
+  },
+  "https://job-boards.greenhouse.io/alpaca/jobs/6207262004": {
+    "first_seen": "2026-10-19T10:29:50.542391",
+    "company": "Alpaca",
+    "title": "Software Engineer, Securities FinanceNewRemote - Americas",
+    "fit_score": 8,
+    "alerted": true
+  },
+  "https://cast.ai/careers/apply/?gh_jid=4425597009": {
+    "first_seen": "2026-10-19T10:30:20.878560",
+    "company": "Cast AI",
+    "title": "Developer Relations & Experience Engineer",
+    "fit_score": 8,
+    "alerted": true
   }
 }
