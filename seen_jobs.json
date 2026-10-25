@@ -1245,5 +1245,19 @@
     "title": "Software Engineer - SparkRemote, GlobalApply for position",
     "fit_score": 8,
     "alerted": true
+  },
+  "https://jobs.ashbyhq.com/supabase/9f2ba0b2-6d3b-43ea-990f-5b4bf3930520": {
+    "first_seen": "2026-10-25T09:34:08.912316",
+    "company": "Supabase",
+    "title": "Software Engineer - StorageRemote, GlobalApply for position",
+    "fit_score": 8,
+    "alerted": true
+  },
+  "https://www.tigerdata.com/careers/d07c7cb2-c304-455c-9941-55e14f8a92c5": {
+    "first_seen": "2026-10-25T09:34:30.381372",
+    "company": "Tiger Data",
+    "title": "Senior Software Engineer, Enterprise",
+    "fit_score": 8,
+    "alerted": true
   }
 }
