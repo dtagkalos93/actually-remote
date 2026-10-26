@@ -1259,5 +1259,19 @@
     "title": "Senior Software Engineer, Enterprise",
     "fit_score": 8,
     "alerted": true
+  },
+  "https://job-boards.greenhouse.io/alpaca/jobs/6231747004": {
+    "first_seen": "2026-10-26T10:45:09.169812",
+    "company": "Alpaca",
+    "title": "Senior Software Engineer - IdentityNewRemote Americas",
+    "fit_score": 8,
+    "alerted": true
+  },
+  "https://job-boards.greenhouse.io/alpaca/jobs/6229457004": {
+    "first_seen": "2026-10-26T10:45:27.263060",
+    "company": "Alpaca",
+    "title": "Staff Software Engineer - PlatformNewRemote- Europe/ Americas",
+    "fit_score": 8,
+    "alerted": true
   }
 }
