@@ -1273,5 +1273,47 @@
     "title": "Staff Software Engineer - PlatformNewRemote- Europe/ Americas",
     "fit_score": 8,
     "alerted": true
+  },
+  "https://cast.ai/careers/apply/?gh_jid=4467010009": {
+    "first_seen": "2026-11-02T13:04:11.173071",
+    "company": "Cast AI",
+    "title": "Senior Software Engineer | Kubernetes Automation",
+    "fit_score": 8,
+    "alerted": true
+  },
+  "https://cast.ai/careers/apply/?gh_jid=4467013009": {
+    "first_seen": "2026-11-02T13:04:28.014502",
+    "company": "Cast AI",
+    "title": "Senior Software Engineer | Kubernetes Automation",
+    "fit_score": 8,
+    "alerted": true
+  },
+  "https://cast.ai/careers/apply/?gh_jid=4467003009": {
+    "first_seen": "2026-11-02T13:04:52.296301",
+    "company": "Cast AI",
+    "title": "Senior Software Engineer | Platform Engineering",
+    "fit_score": 9,
+    "alerted": true
+  },
+  "https://cast.ai/careers/apply/?gh_jid=4467006009": {
+    "first_seen": "2026-11-02T13:05:12.254374",
+    "company": "Cast AI",
+    "title": "Senior Software Engineer | Platform Engineering",
+    "fit_score": 9,
+    "alerted": true
+  },
+  "https://cast.ai/careers/apply/?gh_jid=4466998009": {
+    "first_seen": "2026-11-02T13:05:29.631740",
+    "company": "Cast AI",
+    "title": "Senior Software Engineer | Product Foundations",
+    "fit_score": 9,
+    "alerted": true
+  },
+  "https://cast.ai/careers/apply/?gh_jid=4467002009": {
+    "first_seen": "2026-11-02T13:05:46.988170",
+    "company": "Cast AI",
+    "title": "Senior Software Engineer | Product Foundations",
+    "fit_score": 9,
+    "alerted": true
   }
 }
