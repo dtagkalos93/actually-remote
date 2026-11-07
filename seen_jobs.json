@@ -1315,5 +1315,9 @@
     "title": "Senior Software Engineer | Product Foundations",
     "fit_score": 9,
     "alerted": true
+  },
+  "https://www.sanity.io/careers/senior-software-engineer-agent-foundations": {
+    "status": "skipped_location",
+    "title": "Senior Software Engineer, Agent Foundations"
   }
 }
