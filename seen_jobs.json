@@ -1319,5 +1319,12 @@
   "https://www.sanity.io/careers/senior-software-engineer-agent-foundations": {
     "status": "skipped_location",
     "title": "Senior Software Engineer, Agent Foundations"
+  },
+  "https://cast.ai/careers/apply/?gh_jid=4483424009": {
+    "first_seen": "2026-11-09T13:36:24.526804",
+    "company": "Cast AI",
+    "title": "Senior Software Engineer | Database Optimization",
+    "fit_score": 8,
+    "alerted": true
   }
 }
