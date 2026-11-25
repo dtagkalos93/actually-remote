@@ -1333,5 +1333,12 @@
     "title": "Staff Software Engineer",
     "fit_score": 9,
     "alerted": true
+  },
+  "https://hightouch.com/careers/3b805697-c41c-4f9b-92b8-4c683236f465": {
+    "first_seen": "2026-11-25T15:16:49.334543",
+    "company": "Hightouch",
+    "title": "Software EngineerRemote (North America)",
+    "fit_score": 7,
+    "alerted": true
   }
 }
