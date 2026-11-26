@@ -1340,5 +1340,17 @@
     "title": "Software EngineerRemote (North America)",
     "fit_score": 7,
     "alerted": true
+  },
+  "https://www.lakera.ai/jobs/3417955/senior-software-engineer-agentic-risk-posture": {
+    "status": "failed_jd_fetch",
+    "title": "Senior Software Engineer, Agentic Risk & Posture"
+  },
+  "https://www.lakera.ai/jobs/3418500/software-engineer": {
+    "status": "failed_jd_fetch",
+    "title": "Software Engineer"
+  },
+  "https://www.lakera.ai/jobs/3419589/software-engineer-foundations": {
+    "status": "failed_jd_fetch",
+    "title": "Software Engineer - Foundations"
   }
 }
